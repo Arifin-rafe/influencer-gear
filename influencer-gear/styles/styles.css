@@ -1,0 +1,96 @@
+/* navbar styles */
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 95px 120px;
+}
+
+.nav-title {
+
+    font-weight: 700;
+    font-size: 24px
+}
+
+nav ul {
+    display: flex;
+
+}
+
+nav li {
+    list-style: none;
+    margin-right: 30px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+
+}
+
+/* styles of banner */
+.banner {
+    display: flex;
+    align-items: center;
+    margin: 0 120px;
+}
+
+.btn-primary {
+    background: #E02C6D;
+    border-radius: 41px;
+    border: none;
+    width: 150px;
+    height: 40px;
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 16px;
+
+}
+
+/* styles of stores */
+.brands-stores {
+    margin: 40px 165px;
+}
+
+.brands {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    list-style: none;
+
+}
+
+.brands-item img {
+    display: block;
+    max-width: 100%;
+}
+
+/* all items of influencer */
+.collection-items {
+    margin: 70px 550px;
+}
+
+.items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 24px;
+    grid-row-gap: 24px;
+    margin-left: 170px;
+    width: 329px;
+    height: 476px;
+    background-color: #FFFFFF;
+}
+
+.btn-secondary {
+float: right;
+    width: 99px;
+    height: 24px;
+    left: 1144px;
+    top: 2573px;
+}
+
+/* styles of featured items */
+.decriptions {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin: 200px 165px;
+    width: 1110px;
+    height: 270px;
+}
